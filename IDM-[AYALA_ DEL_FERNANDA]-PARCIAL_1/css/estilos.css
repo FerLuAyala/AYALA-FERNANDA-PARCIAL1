@@ -1,0 +1,869 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+
+body {
+    background-color: rgb(230, 0, 18);
+    color: rgb(245, 245, 228);
+    padding-top: 60px;
+    font-family: "Open Sans", sans-serif;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.411);
+    line-height: 1.8rem;
+}
+
+main {
+
+    max-width: 1680px;
+    margin: auto;
+    font-size: 0;
+}
+
+.titular>header {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titular {
+
+    background-color: rgb(230, 0, 18);
+    box-shadow: rgba(0, 0, 0, 0.219) 2px 6px 3px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+}
+
+
+
+.titular img {
+    height: 55px;
+    width: auto;
+}
+
+.divNavPc {
+    display: none;
+
+}
+
+
+.divNav nav ul {
+
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+.divNav nav ul li {
+    background-color: rgb(7, 7, 7);
+    padding: 2rem;
+    text-align: center;
+    border-bottom: solid 0.1rem rgba(255, 253, 253, 0.5);
+
+}
+
+.divNav nav ul li a {
+
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: rgb(245, 245, 228);
+    text-shadow: 2px 2px 3px rgba(253, 243, 243, 0.856);
+}
+
+
+/*-----------primer bloque--------------*/
+
+h2 {
+
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+
+    padding: 1.2rem;
+}
+
+h4,
+h5 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding-bottom: 1.5rem;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 2rem;
+
+}
+
+.primerBloque {
+    padding: 0 0.5rem 2rem 1rem;
+    box-shadow: rgba(0, 0, 0, 0.219) 2px 6px 3px;
+}
+
+.divIntro {
+
+    border-radius: 2.5rem 0;
+
+    padding: 1rem;
+    background-color: rgba(138, 5, 5, 0.521);
+    box-shadow: rgba(0, 0, 0, 0.411) 2px 6px 3px;
+    font-size: 1.1rem;
+    font-weight: 300;
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+.divIntro h5 {
+    padding: 1rem 0rem 1rem 0;
+}
+
+.divIntro strong {
+    color: rgb(253, 246, 212);
+    text-shadow: 2px 1px 2px rgba(107, 105, 105, 0.692);
+}
+
+.imgMovil {
+    padding: 0.5rem;
+}
+
+.imgPc,h1,
+.imgTablet,
+.imgPack,
+.imgListaPc,
+.imgIntro {
+    display: none;
+}
+
+
+
+/*-----------segundo bloque--------------*/
+
+.segundoBloque {
+    background-color: rgb(7, 7, 7);
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.divCaracteristicas {
+
+    font-size: 1.1rem;
+    font-weight: 300;
+    margin: 1rem;
+    padding-bottom: 1rem;
+    line-height: 1.8rem;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+
+.listaCaracteristicas {
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.8rem;
+    padding: 1rem;
+}
+
+.lista {
+    padding-top: 1.5rem;
+    background-color: rgba(252, 250, 250, 0.041);
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+
+
+.imgLista {
+    padding: 1rem;
+}
+
+/*---------------------------tercer Bloque------------------------------------------*/
+
+.tercerBloque {
+
+    padding: 1rem 0.8rem 2rem 0.8rem;
+}
+
+
+
+.tercerBloque h2 {
+    padding-left: 0;
+}
+
+.mensajeText {
+    font-size: 1.1rem;
+    font-weight: 300;
+
+}
+
+.modoJuego {
+    background-color: rgba(139, 10, 10, 0.596);
+    box-shadow: rgba(0, 0, 0, 0.336) 2px 6px 3px;
+    border-radius: 3rem 0;
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+.modoJuego h3 {
+    
+    padding: 1.2rem;
+
+}
+
+.modoJuego p {
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding: 0.5rem;
+}
+
+
+.contenedor {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.contenedor .iconos {
+    width: 80%;
+    padding: 0.5rem;
+
+
+}
+
+.juegoText {
+    border-left: solid 0.3rem rgb(230, 0, 18);
+}
+
+
+/*---------------------cuarto Bloque--------------------------------------*/
+
+.cuartoBloque {
+    background-color: rgb(7, 7, 7);
+   
+    display: grid;
+    grid-template-columns: 1fr
+}
+
+.cuartoBloque h2{
+    padding-left: 0;
+}
+
+.titPc ,
+.imgControlIzq,
+.imgControlDer {
+    display: none;
+}
+
+.joyTitular h4{
+    padding: 0;
+}
+
+.joyCla {
+
+    padding: 1.2rem;
+}
+
+
+
+.divJoys {
+
+    text-shadow: 2px 2px 3px rgba(247, 242, 242, 0.192);
+    background-color: rgb(245, 245, 245);
+    color: rgb(27, 27, 27);
+   
+    font-size: 1.1rem;
+    font-weight: 400;
+
+}
+
+.joyText {
+    padding: 0.8rem;
+    border-bottom: solid 0.1rem rgb(27, 27, 27);
+}
+
+.joyTitular {
+
+    padding: 1rem;
+
+}
+
+/*--------------------quinto Bloque--------------------------------------*/
+
+.quintoBloque{
+    padding: 1rem 0 2rem 0;
+}
+
+.divGaleria {
+    padding: 1.2rem;
+    font-size: 1.1rem;
+    font-weight: 300;
+    
+}
+
+.mensajeText {
+    padding: 1rem;
+    text-shadow: 2px 2px 3px rgba(51, 51, 51, 0.932);
+}
+
+.galeriaJuegos img {
+    box-shadow: rgba(43, 42, 42, 0.651) 3px 7px 8px;
+    padding: 0.5rem;
+    border-radius: 2rem 0;
+    background-color: rgb(245, 245, 245);
+
+
+}
+
+.galeriaJuegos {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0.5rem;
+    gap: 1rem;
+}
+
+
+
+/*--------------------sexto Bloque--------------------------------------*/
+
+.sextoBloque {
+    background-color: rgb(245, 245, 245);
+    
+    padding: 1rem 0 2rem 0;
+    color: rgb(27, 27, 27);
+    text-shadow: 2px 2px 3px rgba(241, 241, 241, 0.815);
+}
+
+
+fieldset {
+    background-color: rgb(214, 214, 214);
+    padding: 1rem;
+    border: solid 0.1rem rgba(83, 83, 83, 0.322);
+    border-radius: 1rem;
+}
+
+legend {
+
+    
+        font-size: 1.2rem;
+        font-weight: 700;
+        text-align: center;
+        padding: 1rem;
+        background-color: rgb(184, 181, 181);
+        border: solid 0.1rem rgba(59, 59, 59, 0.281);
+        border-radius: 0.2rem;
+
+
+    
+}
+
+.divSorteo {
+
+    padding: 1.5rem;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+
+
+.divFormulario {
+    background-image: url(../img/formulario/formulario.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(214, 214, 214);
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.219) 2px 6px 3px;
+    margin: 0.5rem;
+    padding: 0.8rem;
+    text-shadow: 2px 2px 3px rgba(241, 241, 241, 0.815);
+
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+.formuCampos {
+    padding-bottom: 1rem;
+}
+
+.formuCampos label {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(59, 59, 59);
+}
+
+.formuCampos input {
+    
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid rgb(204, 204, 204);
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    border-radius: 0.5rem;
+
+}
+
+.formuCampos button {
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    background-color: rgb(230, 0, 18);
+    color: rgb(245, 245, 228);
+    border: transparent;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/*-------------------footer-----------------------*/
+.datosPersonales {
+    background-color: rgb(36, 35, 35);
+    padding: 2rem 0 2rem 0;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+
+.infoPerso {
+    background-color: rgba(70, 70, 70, 0.425);
+    margin: 1rem;
+    padding-bottom: 2rem;
+    border-radius: 2rem;
+    color: rgb(253, 235, 235);
+    text-align: center;
+  
+
+
+}
+
+.miFoto {
+
+    width: 250px;
+    margin: auto;
+    border-radius: 3rem 0;
+    overflow: hidden;
+    border-left: solid 1rem rgba(255, 255, 255, 0.082);
+    border-bottom: solid 0.8rem rgba(255, 255, 255, 0.753);
+
+}
+
+
+
+.infoPerso h6 {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.infoPerso p {
+    font-size: 1.2rem;
+    color: rgb(177, 175, 175);
+}
+
+.infoPerso a {
+    text-decoration: none;
+    color: rgb(253, 235, 235);
+    font-style: italic;
+    font-size: 1rem;
+}
+
+
+
+/*-------------------------------------------------------------------*/
+
+@media screen and (min-width: 672px) {
+
+  /*--------------banner-------------*/
+    .imgPack {
+        display: flex;
+        width: 80%;
+        height: auto;
+        margin: auto;
+
+    }
+
+    .imgIntro, .titMovil , .imgMovil{
+        display: none;
+    }
+
+ /*--------------Galeria-------------*/
+    .galeriaJuegos {
+        gap: 0.3rem;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .galeriaJuegos img {
+        border-radius: 2rem 0;
+        border-left: solid 0.3rem rgba(12, 12, 12, 0.425);
+        border-bottom: solid 0.3rem rgba(255, 255, 255, 0.185);
+
+    }
+/*--------------controles-------------*/
+    .cuartoBloque{
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+
+    .divJoys{
+        background-color: rgb(7, 7, 7);
+        color: rgb(245,245,245);
+    }
+
+    .cuartoBloque h2{
+        padding-left: 0;
+    }
+/*--------------Caracteristicas-------------*/
+    .imgLista{
+        
+        width: 80%;
+        margin: auto;
+    }
+    
+
+    h3 {
+        font-size: 1.8rem;
+        padding: 2rem;
+    }
+
+
+
+    .lista {
+
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        padding: 0.2rem;
+    }
+
+    .imgListaPc {
+
+        display: none;
+
+    }
+
+    /*---------Modo de uso----------*/
+
+    .contenedor .iconos {
+        width: 25%;
+        padding: 0.5rem;
+
+
+    }
+
+     /*---------footer----------*/
+
+    .datosPersonales{
+        grid-template-columns: 1fr 1fr;
+       
+        
+    }
+
+    .infoPerso{
+    padding: 1rem;
+        text-align: left;
+    
+    }
+
+
+}
+
+/*-----------------------------------------------*/
+
+@media screen and (min-width: 1680px) {
+
+
+    body {
+        padding-top: 0;
+    }
+
+    section {
+        margin-bottom: 3rem;
+
+    }
+
+
+    .titular {
+        position: static;
+        background: rgb(253, 29, 29);
+        background: linear-gradient(225deg, rgba(253, 29, 29, 1) 20%, rgba(105, 42, 42, 1) 100%);
+
+    }
+
+    .titular > header {
+        height: 800px;
+        background-image: url(../img/intro/producto2.png);
+        background-position-x: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        justify-content: right;
+        padding-right: 8rem;
+
+    }
+
+    
+    .titular img {
+        margin: auto;
+    }
+
+    .divNavPc {
+
+        position: fixed;
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 999;
+        background-color: rgb(253, 5, 5);
+        height: 80px;
+        box-shadow: rgba(0, 0, 0, 0.219) 2px 2px 3px;
+
+
+    }
+
+    .divNavPc nav {
+
+        height: auto;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+
+
+    }
+
+    .divNavPc img {
+
+        height: 70px;
+        width: auto;
+        padding-right: 4rem;
+
+    }
+
+
+    .divNavPc nav ul {
+
+        list-style: none;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        align-items: center;
+
+
+    }
+
+    .divNavPc nav ul li {
+
+        padding: 0.5rem;
+        text-align: center;
+        color: hsla(0, 0%, 0%, 0.274);
+
+
+    }
+
+    .divNavPc nav ul a {
+
+        display: inline-block;
+        padding: 8px 16px;
+        margin: auto;
+        text-decoration: none;
+        color: aliceblue;
+        font-weight: 600;
+        text-transform: uppercase;
+
+    }
+
+    .divNavPc ul li:hover {
+        background-color: #750303;
+    }
+ /*---------NONE----------*/
+    .imgPack,
+    .joyCla,
+    .imgConsola,
+    .divNav {
+        display: none;
+    }
+/*---------intro home----------*/
+    .imgIntro {
+        display: flex;
+
+    }
+
+    .divIntro {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-right: 0;
+        margin-bottom: 3rem;
+    }
+
+    .textIntro {
+        grid-column: 1/3;
+        padding: 4rem;
+    }
+/*---------Caracteristicas----------*/
+    .imgLista {
+        grid-column: 1/3;
+    }
+
+    h5 {
+        font-size: 1.5rem;
+    }
+
+    .divCaracteristicas {
+
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 6rem;
+        align-items: center;
+
+
+    }
+
+    .textCaracteristicas {
+        grid-column: 3/3;
+        padding: 1rem;
+        line-height: 1.8rem;
+
+    }
+
+    .imgListaPc {
+        grid-column: 1/3;
+    }
+
+    .lista {
+
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        gap: 2rem;
+        padding: 1rem;
+    }
+
+/*---------Modo de uso/juego----------*/
+
+    .modoJuegoPc {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+    }
+
+    h2 {
+        text-align: left;
+        font-size: 3rem;
+        padding: 2rem 4rem 3rem 3rem;
+    }
+
+
+    .modoJuego {
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+        box-shadow: rgba(0, 0, 0, 0.363) 6px 6px 5px;
+
+    }
+
+    .juegoText p {
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+
+    .mensajeText {
+        font-size: 1.5rem;
+
+    }
+
+    /*---------Joys----------*/
+
+    .cuartoBloque {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        background-image: url(../img/controles/juegoMario.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+
+    }
+
+
+    .imgControlIzq,
+    .imgControlDer {
+        display: flex;
+        height: auto;
+        width: 50%;
+        margin: auto;
+    }
+
+    .titPc {
+        display: flex;
+    }
+
+    .divJoys {
+        background-color: #fd0303;
+        color: rgba(241, 242, 243, 0.884);
+    }
+    .divJoys h4{
+        font-size: 1.8rem;  
+    }
+    .joyText {
+        border-bottom: solid 1rem rgb(250, 2, 2);
+        padding: 2rem;
+        font-weight: 400;
+        font-size: 1.3rem;
+
+    }
+/*---------formulario----------*/
+    fieldset {
+       width: 80%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+
+    }
+
+   
+
+    .divSorteo {
+        text-align: center;
+    }
+/*---------galeria----------*/
+    .galeriaJuegos {
+        gap: 1.5rem;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    }
+
+    .galeriaJuegos img {
+        border-radius: 2rem 0;
+        border-left: solid 1rem rgba(12, 12, 12, 0.425);
+        border-bottom: solid 1rem rgba(255, 255, 255, 0.185);
+    }
+
+/*---------footer----------*/
+    .datosPersonales{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 0.2rem;
+    }
+
+    .infoPerso{
+        grid-column: 2/5;
+        text-align: left;
+        padding: 2rem;
+    }
+
+}
